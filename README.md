@@ -1,0 +1,1 @@
+# Bareminimum Decorative Configuration for VPS/ Linux server;
