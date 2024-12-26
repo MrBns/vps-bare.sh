@@ -1,6 +1,9 @@
-VB_BASE="$HOME/.config/vps-bare.sh"
+#Aliases
 
-export PATH="$PATH:$HOME/.deno/bin"
+
+# Path Exporting
+VB_BASE="$HOME/.config/vps-bare.sh"
+export PATH="$PATH:$HOME/.deno/bin:$HOME/.local/bin"
 
 
 ## NVM (node version manager)
@@ -15,3 +18,5 @@ eval "$(starship init zsh)"
 
 # Starting Zoxide
 eval "$(zoxide init zsh --cmd j)"
+
+source "$VB_BASE/alias.sh"
