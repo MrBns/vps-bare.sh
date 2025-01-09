@@ -1,9 +1,8 @@
-#Aliases
 
+local VB_BASE="$HOME/.config/vps-bare.sh"
 
-# Path Exporting
-VB_BASE="$HOME/.config/vps-bare.sh"
-export PATH="$PATH:$HOME/.deno/bin:$HOME/.local/bin"
+# Sourcing Path files for environment variable setup;
+source "$VB_BASE/_path.sh"
 
 
 ## NVM (node version manager)
