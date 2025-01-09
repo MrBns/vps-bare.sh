@@ -18,4 +18,4 @@ eval "$(starship init zsh)"
 # Starting Zoxide
 eval "$(zoxide init zsh --cmd j)"
 
-source "$VB_BASE/alias.sh"
+source "$VB_BASE/_alias.sh"
